@@ -63,19 +63,12 @@ class FloatingTypeTest {
     @SuppressWarnings("unused")
     private boolean isNan(double realNumber) {
         // TODO: please find the method that performs this operation.
-        assertTrue(isInfinity(1d / 0d));
-        assertTrue(isInfinity(-1d / 0d));
-        assertFalse(isInfinity(2d));
-        assertFalse(isInfinity(Double.NaN));
-        throw new NotImplementedException();
+        return Double.isNaN(realNumber);
     }
 
     @SuppressWarnings("unused")
     private boolean isInfinity(double realNumber) {
         // TODO: please find the method that perform this operation.
-        assertTrue(isNan(0d / 0d));
-        assertFalse(isNan(Double.NEGATIVE_INFINITY));
-        assertFalse(isNan(Double.POSITIVE_INFINITY));
-        throw new NotImplementedException();
+        return Double.isInfinite(realNumber);
     }
 }

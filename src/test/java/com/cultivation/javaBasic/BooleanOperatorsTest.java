@@ -38,9 +38,9 @@ class BooleanOperatorsTest {
                 true,
                 false,
                 false,
-                false,
-                false,
                 true,
+                true,
+                false,
                 false,
                 true
         };

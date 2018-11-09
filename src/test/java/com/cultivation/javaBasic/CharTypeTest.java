@@ -15,8 +15,8 @@ class CharTypeTest {
         final char lineFeed = '\n';
         final char carriageReturn = '\r';
         final char doubleQuote = '\"';
-        final char singleQuote = '\' ';
-        final char backslash = '\\ ';
+        final char singleQuote = '\'';
+        final char backslash = '\\';
         // --end-->
 
         assertEquals(EscapedChars.BACKSPACE.getValue(), backspace);
