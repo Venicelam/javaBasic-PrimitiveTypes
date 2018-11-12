@@ -172,7 +172,6 @@ class IntegerTypeTest {
     private int add(int left, int right) {
         // TODO: Please find the method that adding two numbers with overflow checking.
         // The method should throw ArithmeticException if overflow or underflow happens.
-        Math.addExact(left, right);
-        throw new NotImplementedException();
+        return Math.addExact(left, right);
     }
 }
